@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
-const Movie = require("../models/Movie.model");
+const Movie = require("../models/Movie");
 
-const DB_NAME = "cinema-lab";
+const DB_NAME = "express-cinema-dev";
 
 mongoose.connect(`mongodb://localhost/${DB_NAME}`, {
   useCreateIndex: true,
@@ -102,6 +102,5 @@ const movies = [
     })
     .catch((error) => {
         console.log(`An error occurred while creating books from the DB: ${error}`)
-
     })
   

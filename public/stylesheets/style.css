@@ -1,12 +1,15 @@
+* {
+  margin: 0;
+}
+
 body {
   font: 82.5% "Lucida Grande", Helvetica, Arial, sans-serif;
-  margin: 0;
 }
 
 /* Typography */
 
 h1 {
-  font-size: 4rem;
+  font-size: 5em;
   color: white;
 }
 
@@ -32,8 +35,8 @@ h1 {
   color: RGB(124, 170, 182);
   margin: 4vh 0 0 55vw;
   background-color: white;
-  padding: 0.75rem 1.75rem;
-  border-radius: 1.5rem;
+  padding: 0.75em 1.75em;
+  border-radius: 1.5em;
   text-decoration: none;
   font-weight: bold;
 }
