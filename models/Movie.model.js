@@ -8,7 +8,7 @@ const movieSchema = new Schema({
   stars: [String],
   image: String,
   description: String,
-  showtimes: [Number],
+  showtimes: [String],
 });
 
 module.exports = model('Movie', movieSchema);
