@@ -1,0 +1,39 @@
+body {
+  font: 82.5% "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+/* Typography */
+
+h1 {
+  font-size: 4rem;
+  color: white;
+}
+
+/* Homepage Layout */
+
+.homepage {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("/images/cinema.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: lightgray;
+}
+
+.homepage h1 {
+  margin: 0;
+  padding: 10vh 0 0 55vw;
+}
+
+.homepage a {
+  display: inline-block;
+  color: RGB(124, 170, 182);
+  margin: 4vh 0 0 55vw;
+  background-color: white;
+  padding: 0.75rem 1.75rem;
+  border-radius: 1.5rem;
+  text-decoration: none;
+  font-weight: bold;
+}
