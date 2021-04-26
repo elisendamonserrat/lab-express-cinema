@@ -3,10 +3,9 @@
     <p>Click on the movie to see the showtime!</p>
     <div>
         {{#each moviesArray}}
-         <img src="{{image}}" alt="">
-         <h2>{{title}}</h2>
-         <a href="#">See more</a>
+        <img src="{{image}}" alt="">
+        <h2>{{title}}</h2>
+        <a href="/movies/{{this._id}}">See more</a>
         {{/each}}
-
     </div>
 </div>

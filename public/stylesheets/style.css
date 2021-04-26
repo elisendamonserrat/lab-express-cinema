@@ -13,6 +13,11 @@ h1 {
   color: white;
 }
 
+.h1-black {
+  font-size: 3rem;
+  color: black;
+}
+
 /* Homepage Layout */
 
 .homepage {
