@@ -8,7 +8,6 @@ const router = express.Router();
 router.get('/', (req, res) => res.render('index'));
 
 /*GET movies page */
-
 router.get('/movies', (req, res) => {
   Movie.find({})
         .then((moviesArray) => {
